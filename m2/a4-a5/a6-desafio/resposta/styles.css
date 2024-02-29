@@ -1,0 +1,85 @@
+body {
+	font-family: Arial, sans-serif;
+	padding: 20px;
+	background-color: #f0f0f0;
+}
+
+form {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	border: 1px solid #ddd;
+}
+
+button {
+	padding: 10px 20px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+
+button:hover {
+	background-color: #0056b3;
+}
+
+#car-list {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 20px;
+	max-width: 500px;
+	margin: 20px auto;
+}
+
+#car-list div {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+
+#car-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.car-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: calc(33% - 20px);
+  box-sizing: border-box;
+  transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+  transform: scale(1.05);
+}
+
+.car-card h2 {
+  margin: 0 0 10px;
+}
+
+.car-card p {
+  margin: 0;
+}
