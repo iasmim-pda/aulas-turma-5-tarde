@@ -85,6 +85,7 @@ try {
 	console.error("Erro:", error);
 }
 
+
 function somaDoisNumeros(numero1, numero2) {
 	//se a função não receber um número
 	//ela vai retornar um erro
@@ -115,5 +116,6 @@ try {
 } catch (error) {
 	//se não conseguir, pegue o erro
 	//e mostre no console
+  alert("Ocorreu um erro, tente novamente mais tarde");
 	console.error("Erro TRATADO:", error);
 }
