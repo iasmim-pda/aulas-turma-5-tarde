@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
 	</head>
 	<body>
 		<form id="car-form">
@@ -17,7 +22,7 @@
 			<input type="number" id="price" required min="0" />
 			<button type="submit">Adicionar Carro</button>
 		</form>
-		<button id="remove-car">Remover Carro</button>
+		<button type="submit" id="remove-car">Remover Carro</button>
 		<div id="car-list"></div>
 		<script src="app.js"></script>
 	</body>
